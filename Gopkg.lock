@@ -17,6 +17,12 @@
   revision = "a0175ee3bccc567396460bf5acd36800cb10c49c"
 
 [[projects]]
+  branch = "plugin-hack"
+  name = "github.com/jmccann/drone-helm"
+  packages = ["plugin"]
+  revision = "ba5d607e90bc0772c14b6013bab81d8d1534fd21"
+
+[[projects]]
   name = "github.com/joho/godotenv"
   packages = ["."]
   revision = "a79fa1e548e2c689c241d10173efd51e5d689d5b"
@@ -46,6 +52,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1355921b4ce157a2ac0d0ef32949fa25a723561bae66d15d113da9af710182a8"
+  inputs-digest = "337aa9afc7e8a389dbb03d2876effc924db2fa60ba0bbda6c333c08eb0a610fe"
   solver-name = "gps-cdcl"
   solver-version = 1

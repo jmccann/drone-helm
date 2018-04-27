@@ -24,6 +24,9 @@
 #   go-tests = true
 #   unused-packages = true
 
+[[constraint]]
+  name = "github.com/jmccann/drone-helm"
+  branch = "plugin-hack"
 
 [[constraint]]
   name = "github.com/Sirupsen/logrus"
