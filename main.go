@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ipedrazas/drone-helm/plugin"
+	"github.com/jmccann/drone-helm/plugin"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/joho/godotenv"
